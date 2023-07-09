@@ -9,7 +9,6 @@ app.listen(4000, () => {
 
 app.use(express.json());
 
-
 // register  routes...
 app.use("/api", routes);
 

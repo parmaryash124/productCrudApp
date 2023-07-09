@@ -74,6 +74,7 @@ router.post("/product/:id", auth.authorized, productController.productbyId);
 // order related routes.
 
 router.post("/order/createOrder", auth.authorized, orderController.createOrder);
+router.post("/order/myorders", auth.authorized, orderController.myOrders);
 
 
 module.exports = router;
